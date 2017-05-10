@@ -1,0 +1,27 @@
+{
+  "name": "httpcliapp",
+  "version": "1.0.0",
+  "description": "Command Application that consumes a public API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielAmah/httpCLIApp.git"
+  },
+  "keywords": [
+    "Command",
+    "Line",
+    "App"
+  ],
+  "author": "Daniel Amah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielAmah/httpCLIApp/issues"
+  },
+  "homepage": "https://github.com/DanielAmah/httpCLIApp#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
