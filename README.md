@@ -13,9 +13,9 @@ Things you need running on your system
 
 ```
 GIT and NODEJS 
+```
 [![NPM version](https://badge.fury.io/js/badge-list.svg)](http://badge.fury.io/js/badge-list)
 [![GitHub version](https://badge.fury.io/gh/boennemann%2Fbadges.svg)](http://badge.fury.io/gh/boennemann%2Fbadges)
-```
 
 ### Installing
 
