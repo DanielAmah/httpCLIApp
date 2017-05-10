@@ -8,7 +8,7 @@
 	const weather = require(path.join('..', 'app/weather-module.js'));
 	const http = require('http'); // require the http module for node
 	let city = 'New York';
-	describe('weather app', function () {
+	describe('weather app',  ()=> {
 		
 		 beforeAll(()=> {  // beforeAll()is used to set the jasmine default timeout interval. It is passed to all it block in the describe block.
 			jasmine.DEFAULT_TIMEOUT_INTERVAL = 999999; //increased the default timeout interval for jasmine to enable it test all asynchronous calls.
@@ -97,7 +97,6 @@
 		weather(apiKey, city, (error, results)=>{
 		  expect(error).toBe(null)
 		  expect(Object.keys(results.list[0])).toContain('dt_txt');
-		  expect(typeof results.list[0].main["temp"]).toBe('number');
 		  done();
 		})
 	  });
